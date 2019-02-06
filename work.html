@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Learning Technologies | VCH Clinical Education</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="/css/main.css">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- google analytics -->
+
+    <!-- typekit -->
+    <link rel="stylesheet" href="https://use.typekit.net/asu8thc.css">
+
+
+</head>
+<body>
+    <!-- Top Navigation -->
+    <div class="navigation">
+        <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+        
+        <label for="navi-toggle" class="navigation__button">
+            <span class="navigation__icon">&nbsp;</span>
+        </label>
+        
+
+        <div class="navigation__background">&nbsp;</div>
+
+        <nav class="navigation__nav row">
+            <ul class="navigation__list col-md-8" id="left">
+                <li class="navigation__item col-4"><a href="/index.html" class="navigation__link">Home</a></li> 
+                <li class="navigation__item col-4"><a href="/work.html" class="navigation__link">Work</a></li> 
+                <li class="navigation__item col-4"><a href="/service.html" class="navigation__link">Services</a></li> 
+                <li class="navigation__item col-4"><a href="/team.html" class="navigation__link">Team</a></li> 
+
+            </ul>
+            <div class="navigation__list col-md-4" id="right">
+                <h3 class="quote">We make cool stuff!</h3>
+                <div class="container">
+                <a href="#"><button class="button--site clr-main">Intake Form</button></a>
+                </div>
+            </div>
+        </nav>
+
+    </div>
+
+
+    <div class="logo">
+        <!-- Logo -->
+        <a class="header__logo" href="index.html"><img src="/img/TeamSite-_LT-Logo.png" alt="Learning Technologies Logo"></a>
+    </div>
+
+        <!-- Filter -->
+        <div class="d-flex justify-content-center" id="myBtnContainer">
+            <div class="row filter__tab-btn">
+                <ul class="filter">
+                    <li class="filter-tab">
+                        <a class="filter__category" id="elearning" onclick="filterSelection('elearning')">ELearning</a>
+                        <div class="underbar"></div>
+                    </li>
+                    <li class="filter-tab">
+                        <a class="filter__category" id="motion" onclick="filterSelection('motion')">Motion</a>
+                        <div class="underbar"></div>
+                    </li>
+                    <li class="filter-tab">
+                        <a class="filter__category" id="new-media" onclick="filterSelection('new-media')">New Media</a>
+                        <div class="underbar"></div>
+                    </li>
+                    <li class="filter-tab">
+                        <a class="filter__category" id="print" onclick="filterSelection('print')">Print</a>
+                        <div class="underbar"></div>
+                    </li>
+                    <li class="filter-tab">
+                        <a class="filter__category" id="web" onclick="filterSelection('web')">Web</a>
+                        <div class="underbar"></div>
+                    </li>
+
+                    
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- ELearning Projects -->
+    <div class="container projects section" data-type="elearning">
+        <p class="projects--category-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque ipsam exercitationem sed odit vitae facilis quaerat, blanditiis, eligendi porro id omnis consequuntur dicta voluptatibus excepturi nam sunt modi, eius distinctio.</p>
+
+        <!-- VCH Onboarding -->
+        <div class="row projects__row">
+            <div class="col-sm-4 projects--item elearning" id="elearning-1">
+                <div class="image"> 
+                    <a class="link" href="/html-projects/employee-wellness.html">
+                        <img class="thumbnail" src="/assets/thumbnails/Thumbnails_VCHO.jpg"/>  
+                        <div class="overlay">
+                            <div class="text">Click to learn more.</div>
+
+                        </div>
+                    </a>
+                </div>
+                <div class="information">
+                    <a href="/html-projects/employee-wellness.html" class="link">
+                        <p class="project__name">VCH Onboarding</p>
+                        <p class="project__description elearning">A user-centred platform to optimise the learning experience anytime, anywhere.</p>
+                    </a>
+                </div>  
+            </div>
+            
+            <!-- Naxolone -->
+            <div class="col-sm-4 projects--item elearning" id="elearning-2">
+                <div class="image"> 
+                    <a class="link" href="#">
+                        <img class="thumbnail" src="/assets/thumbnails/Thumbnails_Nalaxone.jpg"/>  
+                        <div class="overlay">
+                            <div class="text">Click to learn more.</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="information">
+                    <a href="#" class="link">
+                        <p class="project__name">Naxolone</p>
+                        <p class="project__description">A course is designed to address the urgency around helping people at risk of an overdose.</p>
+                    </a>
+                </div> 
+            </div>
+
+            <!-- Mental Status Exam -->
+            <div class="col-sm-4 projects--item elearning" id="elearning-3">
+                <div class="image"> 
+                    <a class="link" href="#">
+                        <img class="thumbnail" src="/assets/thumbnails/Thumbnails_MSE.jpg"/>  
+                        <div class="overlay">
+                            <div class="text">Click to learn more.</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="information">
+                    <a href="#" class="link">
+                        <p class="project__name">Mental Status Exam</p>
+                        <p class="project__description">A tool for providing objective and respectful observations on a client’s mental functioning.</p>
+                    </a>
+                </div> 
+            </div> 
+
+            <!-- Respectful Workplace -->
+            <div class="col-sm-4 projects--item elearning" id="elearning-3">
+                <div class="image"> 
+                    <a class="link" href="#">
+                        <img class="thumbnail" src="/img/IMG_9264.png"/>  
+                        <div class="overlay">
+                            <div class="text">Click to learn more.</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="information">
+                    <a href="#" class="link">
+                        <p class="project__name">Respectful Workplace</p>
+                        <p class="project__description">A course providing techniques and understanding of rights and responsibilities required in creating a respectful work environment.</p>
+                    </a>
+                </div> 
+            </div> 
+
+            <!-- Dementia Care -->
+            <div class="col-sm-4 projects--item elearning" id="elearning-3">
+                <div class="image"> 
+                    <a class="link" href="#">
+                        <img class="thumbnail" src="/assets/thumbnails/Thumbnails_DementiaCare.jpg"/>  
+                        <div class="overlay">
+                            <div class="text">Click to learn more.</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="information">
+                    <a href="#" class="link">
+                        <p class="project__name">ART & SCIENCE Dementia Care</p>
+                        <p class="project__description">An interactive game with built-in friendly competition to teach the ART & SCIENCE approach in caring for Demetria patients.</p>
+                    </a>
+                </div> 
+            </div>
+            
+            <!-- Behavioural Activation -->
+            <div class="col-sm-4 projects--item elearning" id="elearning-3">
+                <div class="image"> 
+                    <a class="link" href="#">
+                        <img class="thumbnail" src="/assets/thumbnails/Thumbnails_BehaviouralActivation.jpg"/>  
+                        <div class="overlay">
+                            <div class="text">Click to learn more.</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="information">
+                    <a href="#" class="link">
+                        <p class="project__name">Behavioural Activation</p>
+                        <p class="project__description">A course to introduce the theory and processes of Behavioural Activation in treatment of depression and anxiety.</p>
+                    </a>
+                </div> 
+            </div> 
+
+            <!-- Educator Pathway -->
+            <div class="col-sm-4 projects--item elearning" id="elearning-3">
+                <div class="image"> 
+                    <a class="link" href="#">
+                        <img class="thumbnail" src="/assets/thumbnails/Thumbnails_EduPath.jpg"/>  
+                        <div class="overlay">
+                            <div class="text">Click to learn more.</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="information">
+                    <a href="#" class="link">
+                        <p class="project__name">Educator Pathway</p>
+                        <p class="project__description">A highly interactive introductory course on how to preceptor efficiently new hires or students.</p>
+                    </a>
+                </div> 
+            </div>
+            
+            <!-- Home Health -->
+            <div class="col-sm-4 projects--item elearning" id="elearning-3">
+                <div class="image"> 
+                    <a class="link" href="#">
+                        <img class="thumbnail" src="/assets/thumbnails/Thumbnails_HomeHealth.jpg"/>  
+                        <div class="overlay">
+                            <div class="text">Click to learn more.</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="information">
+                    <a href="#" class="link">
+                        <p class="project__name">Home Health</p>
+                        <p class="project__description">A platform centralizing the content for the 8-week blended training curriculum, including branching scenarios and case-studies.</p>
+                    </a>
+                </div> 
+            </div>
+            
+            <!-- IPACE -->
+            <div class="col-sm-4 projects--item elearning" id="elearning-3">
+                <div class="image"> 
+                    <a class="link" href="#">
+                        <img class="thumbnail" src="/assets/thumbnails/Thumbnails_IPACE.jpg"/>  
+                        <div class="overlay">
+                            <div class="text">Click to learn more.</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="information">
+                    <a href="#" class="link">
+                        <p class="project__name">IPACE</p>
+                        <p class="project__description">A course to provide interpreters with knowledge of the Serious Illness Conversation Guide and the intent behind each carefully worded question.</p>
+                    </a>
+                </div> 
+            </div> 
+
+        </div>
+    </div>
+
+    <!-- Motion Projects -->
+    <div class="container projects section" data-type="motion">
+        <p class="projects--category-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque ipsam exercitationem sed odit vitae facilis quaerat, blanditiis, eligendi porro id omnis consequuntur dicta voluptatibus excepturi nam sunt modi, eius distinctio.</p>
+
+        <!-- Employee Wellness -->
+        <div class="row projects__row">
+            <div class="col-sm-4 projects--item motion" id="motion-1">
+                <div class="image"> 
+                    <a class="link" href="#">
+                        <img class="thumbnail" src="/assets/thumbnails/Thumbnails_EW.jpg"/>  
+                        <div class="overlay">
+                            <div class="text">Click here to learn more.</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="information">
+                    <a href="#" class="link">
+                        <p class="project__name">Employee Wellness</p>
+                        <p class="project__description">A rebrand of the Employee and Family Assistance Program to promote “good thinking”.</p>
+                    </a>
+                </div>  
+            </div>
+            
+            <!-- Nurse Practitioner -->
+            <div class="col-sm-4 projects--item motion" id="motion-2">
+                <div class="image"> 
+                    <a class="link" href="#">
+                        <img class="thumbnail" src="/assets/thumbnails/Thumbnails_NursePractitioner.jpg"/>  
+                        <div class="overlay">
+                            <div class="text">Click here to learn more.</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="information">
+                    <a href="#" class="link">
+                        <p class="project__name">Nurse Practitioner</p>
+                        <p class="project__description">A series of recruitment videos to communicate VCH values through testimonials of current employees.</p>
+                    </a>
+                </div>  
+            </div>
+
+            <!-- Educator Pathway -->
+            <div class="col-sm-4 projects--item motion" id="motion-3">
+                <div class="image"> 
+                    <a class="link" href="#">
+                        <img class="thumbnail" src="/assets/thumbnails/Thumbnails_EduPath.jpg"/>  
+                        <div class="overlay">
+                            <div class="text">Click here to learn more.</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="information">
+                    <a href="#" class="link">
+                        <p class="project__name">Educator Pathway</p>
+                        <p class="project__description">A highly interactive introductory course on how to preceptor efficiently new hires or students.</p>
+                    </a>
+                </div>  
+
+            </div> 
+
+            <!-- Home Health -->
+            <div class="col-sm-4 projects--item motion" id="motion-4">
+                <div class="image"> 
+                    <a class="link" href="#">
+                        <img class="thumbnail" src="/assets/thumbnails/Thumbnails_HomeHealth.jpg"/>  
+                        <div class="overlay">
+                            <div class="text">Click here to learn more.</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="information">
+                    <a href="#" class="link">
+                        <p class="project__name">Home Health</p>
+                        <p class="project__description">A platform centralizing the content for the 8-week blended training curriculum, including branching scenarios and case-studies.</p>
+                    </a>
+                </div>  
+            </div> 
+
+        </div>
+    </div>
+
+    <!-- New Media Projects -->
+    <div class="container projects section" data-type="new-media">
+
+        <p class="projects--category-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque ipsam exercitationem sed odit vitae facilis quaerat, blanditiis, eligendi porro id omnis consequuntur dicta voluptatibus excepturi nam sunt modi, eius distinctio.</p>
+
+        <!-- Banvield VR -->
+        <div class="row projects__row">
+            <div class="col-sm-4 projects--item new-media" id="new-media-1">
+                <div class="image"> 
+                    <a class="link" href="#">
+                        <img class="thumbnail" src="/img/IMG_9264.png"/>  
+                        <div class="overlay">
+                            <div class="text">Click here to learn more.</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="information">
+                    <a href="#" class="link">
+                        <p class="project__name">Banfield VR</p>
+                        <p class="project__description">A virtual excursion for residents to experience Stanley Park without requiring the resources and physical exertion of a field trip.</p>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Print Projects -->
+    <div class="container projects section" data-type="print">
+        <p class="projects--category-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque ipsam exercitationem sed odit vitae facilis quaerat, blanditiis, eligendi porro id omnis consequuntur dicta voluptatibus excepturi nam sunt modi, eius distinctio.</p>
+
+        <!-- Employee Wellness -->
+        <div class="row projects__row">
+            <div class="col-sm-4 projects--item print" id="print-1">
+                <div class="image"> 
+                    <a class="link" href="#">
+                        <img class="thumbnail" src="/assets/thumbnails/Thumbnails_EW.jpg"/>  
+                        <div class="overlay">
+                            <div class="text">Click here to learn more.</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="information">
+                    <a href="#" class="link">
+                        <p class="project__name">Employee Wellness</p>
+                        <p class="project__description">A rebrand of the Employee and Family Assistance Program to promote “good thinking”.</p>
+                    </a>
+                </div>
+            </div>
+            
+        <!-- Work Clothing -->
+            <div class="col-sm-4 projects--item print" id="print-2">
+                <div class="image"> 
+                    <a class="link" href="#">
+                        <img class="thumbnail" src="/img/IMG_9264.png"/>  
+                        <div class="overlay">
+                            <div class="text">Click here to learn more.</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="information">
+                    <a href="#" class="link">
+                        <p class="project__name">Work Clothing</p>
+                        <p class="project__description">A campaign of monthly pop-up sales in different locations, designed to promote work clothing for all clinical staff.</p>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- web projects -->
+    <div class="container projects section" data-type="web">
+        <p class="projects--category-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque ipsam exercitationem sed odit vitae facilis quaerat, blanditiis, eligendi porro id omnis consequuntur dicta voluptatibus excepturi nam sunt modi, eius distinctio.</p>
+
+        <!-- Managers Resource Centre -->
+        <div class="row projects__row">
+            <div class="col-sm-4 projects--item web" id="web-1">
+                <div class="image"> 
+                    <a class="link" href="#">
+                        <img class="thumbnail" src="/assets/thumbnails/Thumbnails_MRC.jpg"/>  
+                        <div class="overlay">
+                            <div class="text"> Click to learn more.</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="information">
+                    <a href="#" class="link">
+                        <p class="project__name">Manager Resource Centre</p>
+                        <p class="project__description">A centralized online resource centre to make finding manager reports, manager resources and contact information easier than ever before.</p>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Employee Wellness -->
+            <div class="col-sm-4 projects--item web" id="web-2">
+                <div class="image"> 
+                    <a class="link" href="#">
+                        <img class="thumbnail" src="/assets/thumbnails/Thumbnails_EW.jpg"/>  
+                        <div class="overlay">
+                            <div class="text">Click to learn more.</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="information">
+                    <a href="/html-projects/employee-wellness.html" class="link">
+                        <p class="project__name">Employee Wellness</p>
+                        <p class="project__description">A rebrand of the Employee and Family Assistance Program to promote “good thinking”.</p>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Clinical Education -->
+            <div class="col-sm-4 projects--item web" id="web-3">
+                <div class="image"> 
+                    <a class="link" href="#">
+                        <img class="thumbnail" src="/assets/thumbnails/Thumbnails_ClinEd.jpg"/>  
+                        <div class="overlay">
+                            <div class="text">Click to learn more.</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="information">
+                    <a href="#" class="link">
+                        <p class="project__name">Clinical Education</p>
+                        <p class="project__description">An online platform redesigned to support regular updates and easy access to resources for the development of clinical knowledge. </p>
+                    </a>
+                </div>
+            </div> 
+
+            <!-- Naxolone -->
+            <div class="col-sm-4 projects--item web" id="web-3">
+                <div class="image"> 
+                    <a class="link" href="#">
+                        <img class="thumbnail" src="/assets/thumbnails/Thumbnails_Nalaxone.jpg"/>  
+                        <div class="overlay">
+                            <div class="text">Click to learn more.</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="information">
+                    <a href="#" class="link">
+                        <p class="project__name">Naxolone</p>
+                        <p class="project__description">A course is designed to address the urgency around helping people at risk of an overdose.</p>
+                    </a>
+                </div>
+            </div> 
+
+            <!-- Dementia Care -->
+            <div class="col-sm-4 projects--item web" id="web-3">
+                <div class="image"> 
+                    <a class="link" href="#">
+                        <img class="thumbnail" src="/assets/thumbnails/Thumbnails_DementiaCare.jpg"/>  
+                        <div class="overlay">
+                            <div class="text">Click to learn more.</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="information">
+                    <a href="#" class="link">
+                        <p class="project__name">ART & SCIENCE Dementia Care</p>
+                        <p class="project__description">An interactive game with built-in friendly competition to teach the ART & SCIENCE approach in caring for Demetria patients.</p>
+                    </a>
+                </div>
+            </div> 
+
+            <!-- Dementia Care -->
+            <div class="col-sm-4 projects--item web" id="web-3">
+                <div class="image"> 
+                    <a class="link" href="#">
+                        <img class="thumbnail" src="/assets/thumbnails/Thumbnails_HomeHealth.jpg"/>  
+                        <div class="overlay">
+                            <div class="text">Click to learn more.</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="information">
+                    <a href="#" class="link">
+                        <p class="project__name">Home Health</p>
+                        <p class="project__description">A platform centralizing the content for the 8-week blended training curriculum, including branching scenarios and case-studies.</p>
+                    </a>
+                </div>
+            </div> 
+
+
+
+        </div>
+    </div>
+   
+
+
+
+
+    <!-- Footer -->
+    <footer class="page-footer fixed-bottom footer">
+        <div class="footer__info">
+            <p class="footer__text">Powered by Learning Technologies. A division of VCH Clinical Education</p>
+        </div>
+    </footer>
+
+
+    <!-- JQuery, Popper, Boostrap -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script src="/js/_filter.js"></script>
+
+</body>
+
+
+</html>
