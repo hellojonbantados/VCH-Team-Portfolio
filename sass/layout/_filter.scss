@@ -1,5 +1,5 @@
 #myBtnContainer {
-    margin-top: 100px;
+    margin-top: 40px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -30,12 +30,16 @@
     transition: 0.5s ease;
 }
 
+.active .underbar {
+	width: 100%;
+}
+
 .filter-tab {
     float: left;
     margin: 0 .25rem;
     padding: 1rem .75rem;
     text-align: center;
-    
+
     &:hover {
         // color: red;
         transition: .5s ease-in;
@@ -54,7 +58,7 @@
         width: 100%;
     }
 
-    &:active, 
+    &:active,
     &:visited {
         width: 100%;
     }
@@ -62,16 +66,16 @@
 
 //category colours
 
-#elearning {
-    
-    &:hover {
+#elearning, .active #elearning {
+
+    &:hover, & {
         color: $accent-elearning;
 
         &~ .underbar {
         background: $accent-elearning;
         }
     }
-    
+
     &:visited {
         color: $accent-elearning;
 
@@ -81,7 +85,7 @@
     }
 }
 
-#motion:hover {
+#motion:hover, .active #motion {
     color: $accent-motion;
 
     &~ .underbar {
@@ -97,7 +101,7 @@
     }
 }
 
-#print:hover {
+#print:hover, .active #print {
     color: $accent-print;
 
     &~ .underbar {
@@ -105,7 +109,7 @@
     }
 }
 
-#web:hover {
+#web:hover, .active #web {
     color: $accent-web;
 
     &~ .underbar {
@@ -118,5 +122,6 @@
 
 .projects--category-description {
     text-align: center;
-    padding-bottom: .75rem;
+    padding-bottom: $padding;
+	margin: 0 15%;
 }
