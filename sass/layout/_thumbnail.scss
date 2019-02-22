@@ -15,10 +15,10 @@
 }
 
 .projects--item {
-    margin-bottom: 4rem;
+    margin-bottom: $padding;
 }
 
-// Image thumbnail 
+// Image thumbnail
 .thumbnail {
     position: relative;
     width: 100%;
@@ -44,7 +44,7 @@
 
 //Attaches overlay to the image
 .image:hover .overlay {
-    width: 100%; 
+    width: 100%;
 }
 
 // Overlay text styling
@@ -57,11 +57,11 @@
     transform: translate(-50%, -50%);
     white-space: nowrap;
     text-align: center;
-  
+
 }
 
-//This gets rid of the underline in the project__header and project__description
+//This gets rid of the underline in the project__header and
+
 .link:hover {
     text-decoration: none;
 }
-

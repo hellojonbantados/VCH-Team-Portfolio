@@ -35,7 +35,7 @@
     left: 0;
     width: 20vw;
     margin-top: 1rem;
-    margin-left: 1rem;
+    margin-left: 2.5rem;
     z-index: 1000;
 }
 
@@ -86,7 +86,7 @@
 }
 
 .service, .team {
-    margin-top: 15%;
+    margin-top: $header-padding;
 }
 
 .col-sm-6 > .content {

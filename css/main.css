@@ -74,8 +74,8 @@ p {
   color: #4c4c4c; }
 
 .project__description {
-  line-height: 1.25rem;
-  font-size: 1rem; }
+  line-height: 1.25em;
+  font-size: 1em; }
 
 .project--header, .service--header, .team--header {
   font-size: 1.5rem;
@@ -325,7 +325,7 @@ h2 .fas {
     padding-bottom: 2rem; }
 
 .projects--item {
-  margin-bottom: 4rem; }
+  margin-bottom: 2.5rem; }
 
 .thumbnail {
   position: relative;
@@ -437,7 +437,7 @@ ol.carousel-indicators li.active {
   left: 0;
   width: 20vw;
   margin-top: 1rem;
-  margin-left: 1rem;
+  margin-left: 2.5rem;
   z-index: 1000; }
 
 .index--title {
@@ -476,7 +476,7 @@ ol.carousel-indicators li.active {
   margin-top: 1.5rem; }
 
 .service, .team {
-  margin-top: 15%; }
+  margin-top: 8rem; }
 
 .col-sm-6 > .content {
   padding: 1.5rem; }
