@@ -30,13 +30,13 @@
 
 //Learning technologies logo
 .header__logo {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 20vw;
     margin-top: 1rem;
     margin-left: 1rem;
-    z-index: 1000;
+    // z-index: 1000;
 }
 
 .index--title {

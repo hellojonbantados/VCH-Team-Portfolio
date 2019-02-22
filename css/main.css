@@ -123,6 +123,7 @@ h2 .fas {
 
 .navigation__checkbox {
   display: none; }
+
 .navigation__button {
   background-color: #fff;
   width: 5rem;
@@ -356,6 +357,7 @@ h2 .fas {
   color: #f14f35; }
   #elearning:hover ~ .underbar {
     background: #f14f35; }
+
 #elearning:visited {
   color: #f14f35; }
   #elearning:visited ~ .underbar {
@@ -518,13 +520,12 @@ ol.carousel-indicators li.active {
   background-position: bottom; }
 
 .header__logo {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 20vw;
   margin-top: 1rem;
-  margin-left: 1rem;
-  z-index: 1000; }
+  margin-left: 1rem; }
 
 .index--title {
   position: absolute;
