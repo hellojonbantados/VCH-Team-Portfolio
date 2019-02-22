@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAAA,WAAY;EACR,KAAK,EAAE,IAAI;EACX,OAAO,EAAE,gBAAgB;EACzB,UAAU,EAAE,gBAAgB",
+"mappings": "AAAA,WAAY;EACR,SAAS,EAAE,IAAI;EAClB,UAAU,EAAE,IAAI;EACb,OAAO,EAAE,gBAAgB;EACzB,UAAU,EAAE,gBAAgB",
 "sources": ["../../sass/layout/video.scss"],
 "names": [],
 "file": "video.css"

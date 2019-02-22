@@ -7,11 +7,10 @@
 
 #carouselExampleIndicators {
     position: relative;
-    padding-top: 8rem;
-    width: 80%;
+    padding: 6rem 0 2rem 0;
+    width: 85%;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 2rem;
 }
 
 a.back:hover {
@@ -20,12 +19,12 @@ a.back:hover {
 
 .icon--arrow {
     width: 40%;
-    
+
     &:hover {
         text-decoration: none;
     }
 }
-  
+
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
     background-color: red !important;
@@ -44,7 +43,7 @@ ol.carousel-indicators li.active {
     margin: 3rem .25rem 0 .25rem;
     border-radius: 100px;
     border: 1px solid #f14f35;
-    background: lightgrey;
+    background: none;
     cursor: pointer;
 }
 
