@@ -7,10 +7,17 @@
 
 #carouselExampleIndicators {
     position: relative;
-    padding: 6rem 0 2rem 0;
+    padding: 1rem 0 2rem 0;
     width: 85%;
     margin-left: auto;
     margin-right: auto;
+}
+
+// Back button to take you to the work page
+
+.back-arrow {
+    position: relative;
+    margin-top: 7rem;
 }
 
 a.back:hover {
@@ -19,6 +26,7 @@ a.back:hover {
 
 .icon--arrow {
     width: 40%;
+    max-width: 2rem;
 
     &:hover {
         text-decoration: none;
@@ -40,7 +48,7 @@ ol.carousel-indicators li.active {
     height: 1rem;
     width: 1rem;
     top: 1rem;
-    margin: 3rem .25rem 0 .25rem;
+    margin: .25rem .25rem 0 .25rem;
     border-radius: 100px;
     border: 1px solid #f14f35;
     background: none;
@@ -51,6 +59,6 @@ ol.carousel-indicators li.active {
     background: #f14f35;
 }
 
-.carousel-control-prev {
-    margin-top: 100px;
-}
+// .carousel-control-prev {
+//     margin-top: 100px;
+// }
