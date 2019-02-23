@@ -473,8 +473,9 @@ a.back:hover {
 
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
-  background-color: red !important;
+  background-color: #f14f35 !important;
   color: blue;
+  height: 15% !important;
   padding: 1.15rem;
   z-index: 9999; }
 
@@ -496,8 +497,8 @@ ol.carousel-indicators li.active {
   background: #f14f35; }
 
 .video-hero {
-  min-width: 100%;
-  min-height: 100%;
+  width: 100%;
+  max-height: 100%;
   padding: 1rem 1rem 0 1rem;
   -webkit-box-shadow: 3px 3px 3px grey;
   -moz-box-shadow: 3px 3px 3px grey;
@@ -767,8 +768,9 @@ a.back:hover {
 
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
-  background-color: red !important;
+  background-color: #f14f35 !important;
   color: blue;
+  height: 15% !important;
   padding: 1.15rem;
   z-index: 9999; }
 
@@ -790,8 +792,8 @@ ol.carousel-indicators li.active {
   background: #f14f35; }
 
 .video-hero {
-  min-width: 100%;
-  min-height: 100%;
+  width: 100%;
+  max-height: 100%;
   padding: 1rem 1rem 0 1rem;
   -webkit-box-shadow: 3px 3px 3px grey;
   -moz-box-shadow: 3px 3px 3px grey;

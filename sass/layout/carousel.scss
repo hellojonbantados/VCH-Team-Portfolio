@@ -33,13 +33,17 @@ a.back:hover {
     }
 }
 
+
+
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
-    background-color: red !important;
+    background-color: #f14f35 !important;
     color: blue;
+    height: 15% !important;
     padding: 1.15rem;
     z-index: 9999;
 }
+
 
 
 ol.carousel-indicators li,
@@ -59,6 +63,3 @@ ol.carousel-indicators li.active {
     background: #f14f35;
 }
 
-// .carousel-control-prev {
-//     margin-top: 100px;
-// }
