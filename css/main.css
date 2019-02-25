@@ -505,10 +505,10 @@ ol.carousel-indicators li.active {
   box-shadow: 3px 3px 3px grey; }
 
 .footer {
-  display: none;
+  display: inline-block;
   background-color: #4c4c4c;
   color: #fff;
-  height: 5vh;
+  height: 10%;
   width: 100%; }
 
 .header {
