@@ -1,10 +1,15 @@
 .footer {
     display: inline-block;
     background-color: $colour-dark-grey;
-    color: $color-white;
-    height: 10%;
+    height: 15%;
     width: 100%;
+}
 
-
+.footer__text {
+    color: $colour-white;
+    font-size: .5rem;
+    font-weight: 200;
+    text-align: center;
+    vertical-align: text-bottom;
 
 }
