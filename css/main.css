@@ -356,14 +356,9 @@ h2 .fas {
   .filter__category:active, .filter__category:visited {
     width: 100%; }
 
-#elearning:hover, #elearning, .active #elearning:hover, .active #elearning {
+#elearning:hover, .active #elearning {
   color: #f14f35; }
-  #elearning:hover ~ .underbar, #elearning ~ .underbar, .active #elearning:hover ~ .underbar, .active #elearning ~ .underbar {
-    background: #f14f35; }
-
-#elearning:visited, .active #elearning:visited {
-  color: #f14f35; }
-  #elearning:visited ~ .underbar, .active #elearning:visited ~ .underbar {
+  #elearning:hover ~ .underbar, .active #elearning ~ .underbar {
     background: #f14f35; }
 
 #motion:hover, .active #motion {
@@ -371,9 +366,9 @@ h2 .fas {
   #motion:hover ~ .underbar, .active #motion ~ .underbar {
     background: #f2bb01; }
 
-#new-media:hover {
+#new-media:hover, .active #new-media {
   color: #70cee4; }
-  #new-media:hover ~ .underbar {
+  #new-media:hover ~ .underbar, .active #new-media ~ .underbar {
     background: #70cee4; }
 
 #print:hover, .active #print {
@@ -512,9 +507,10 @@ ol.carousel-indicators li.active {
 
 .footer__text {
   color: #fff;
-  font-size: .5rem;
+  font-size: .75rem;
   font-weight: 200;
   text-align: center;
+  padding-top: 1rem;
   vertical-align: text-bottom; }
 
 .header {

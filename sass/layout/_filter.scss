@@ -66,23 +66,13 @@
 
 //category colours
 
-#elearning, .active #elearning {
+#elearning:hover, .active #elearning {
+    color: $accent-elearning;
 
-    &:hover, & {
-        color: $accent-elearning;
-
-        &~ .underbar {
+    &~ .underbar {
         background: $accent-elearning;
-        }
     }
 
-    &:visited {
-        color: $accent-elearning;
-
-        &~ .underbar {
-            background: $accent-elearning;
-        }
-    }
 }
 
 #motion:hover, .active #motion {
@@ -93,7 +83,7 @@
     }
 }
 
-#new-media:hover {
+#new-media:hover, .active #new-media {
     color: $accent-new-media;
 
     &~ .underbar {
