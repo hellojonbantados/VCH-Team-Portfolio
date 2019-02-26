@@ -5,23 +5,29 @@
 
 #carouselExampleIndicators {
   position: relative;
-  padding: 6rem 0 2rem 0;
+  padding: 1rem 0 2rem 0;
   width: 85%;
   margin-left: auto;
   margin-right: auto; }
+
+.back-arrow {
+  position: relative;
+  margin-top: 7rem; }
 
 a.back:hover {
   text-decoration: none; }
 
 .icon--arrow {
-  width: 40%; }
+  width: 40%;
+  max-width: 2rem; }
   .icon--arrow:hover {
     text-decoration: none; }
 
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
-  background-color: red !important;
+  background-color: #f14f35 !important;
   color: blue;
+  height: 15% !important;
   padding: 1.15rem;
   z-index: 9999; }
 
@@ -31,7 +37,7 @@ ol.carousel-indicators li.active {
   height: 1rem;
   width: 1rem;
   top: 1rem;
-  margin: 3rem .25rem 0 .25rem;
+  margin: .25rem .25rem 0 .25rem;
   border-radius: 100px;
   border: 1px solid #f14f35;
   background: none;
@@ -39,8 +45,5 @@ ol.carousel-indicators li.active {
 
 ol.carousel-indicators li.active {
   background: #f14f35; }
-
-.carousel-control-prev {
-  margin-top: 100px; }
 
 /*# sourceMappingURL=carousel.css.map */
