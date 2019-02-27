@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AACA,WAAY;EACR,KAAK,EAAE,IAAI;EACd,UAAU,EAAE,IAAI;EACb,OAAO,EAAE,gBAAgB;EACzB,UAAU,EAAE,gBAAgB",
-"sources": ["../../sass/layout/video.scss"],
-"names": [],
-"file": "video.css"
-}
